@@ -1,9 +1,10 @@
 # NST-Part-II-Chem-Programming
 
+## Exercise-1
 This is my first programming exercise. 
 In the first exercise, I wrote a programme that determines the Hückel energies and degeneracies of polyene and 3 Platonic solids.
 
-## User Input
+### User Input
 Running the programming you will see "Type of the molecule is 1-polyene; 2-sp2 Platonic solid (enter the number)".
 
 Simply follow the prompt, type `1` for polyene and `2` for Platonic solid.
@@ -14,7 +15,7 @@ If you typed `1` for polyene, you will then see the prompt asking for `cyclic` o
 If you typed `2` for Platonic solids, you will then see a prompt asking you to choose from `tetrahedron` or `cube` or `dodecahedraon`. Apologise for not including information of other 2 Platonic solids. The programme will be updated in the future.
 
 
-## Results 
+### Results 
 The programme returns the energies in a list, followed by degeneracies. 
 
 
