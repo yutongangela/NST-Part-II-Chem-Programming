@@ -23,9 +23,10 @@ The programme returns the energies in a list, followed by degeneracies.
 In the second exercise, I wrote a script to calculate symmetric stretching and bending frequencies of H2O and H2S. 
 Before running the script, you need to:
 1. Download the `H2Ooutfiles.tar.bz2` and `H2Soutfiles.tar.bz2` files to your machine
-2. Decompress by '''bash
+2. Decompress by 
+```bash
 bunzip2 filename
-'''
+```
 
 ### User Input
 1. Enter whether you want to get information about H2O or H2S. All other inputs are invalid.
