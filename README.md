@@ -27,7 +27,15 @@ Before running the script, you need to:
 ```bash
 bunzip2 filename
 ```
-
+3. Extract from tar archive with 
+```bash
+tar -xvf filename
+```
+4. Get path to the folder by typing `pwd`, for example
+```console
+(base) dhcp-10-241-174-73:Downloads yutong$ pwd
+/Users/yutong/Downloads
+```
 ### User Input
 1. Enter whether you want to get information about H2O or H2S. All other inputs are invalid.
 2. E
