@@ -31,12 +31,34 @@ bunzip2 filename
 ```bash
 tar -xvf filename
 ```
-4. Get path to the folder by typing `pwd`, for example
+4. Get path to that folder by typing `pwd`, for example
 ```console
-(base) dhcp-10-241-174-73:Downloads yutong$ pwd
-/Users/yutong/Downloads
+(base) dhcp-10-241-174-73:H2Ooutfiles yutong$ pwd
+/Users/yutong/Downloads/H2Ooutfiles
 ```
 ### User Input
-1. Enter whether you want to get information about H2O or H2S. All other inputs are invalid.
-2. E
+Enter whether you want to get information about H2O or H2S. All other inputs are invalid.
+
+Copy and paste path to the folder containing that molecule, for example `/Users/yutong/Downloads/H2Ooutfiles`, press Enter.
+
+### Results
+The programme with return information about the molecule plus 3 figures, if your input is correct.
+
+For H2S, the results are:
+```bash
+H2S has the following information:
+----------------Section-1-----------------
+Energy at equilibrium geometry: -398.675628032 Hartrees
+H-X bond length at equilibrium geometry:  1.35 angstroms
+X-H-X bond angle at equilibrium geometry:  94 degrees
+------------Section-2-----------------
+The fitting of quardratic equation gives k_r = 839 and k_theta = 8.812612070232378e-19 
+---------------Section-3---------------
+symmetric streching frequency:2668.8362781341502 cm-1
+bending frequency: 1281.1750214775745 cm-1
+---------------END-------------------
+```
+
+
+
 If you have any question, please drop me an email (yc439@cam.ac.uk) Thank you!
