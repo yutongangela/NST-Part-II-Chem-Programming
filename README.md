@@ -44,14 +44,29 @@ Copy and paste path to the folder containing that molecule, for example `/Users/
 ### Results
 The programme with return information about the molecule plus 3 figures, if your input is correct.
 
+For H2O, the results are:
+```bash
+H2O has the following information:
+-------------Section-1--------------
+Energy at equilibrium geometry: -76.0242882171 Hartrees
+H-X bond length at equilibrium geometry:  0.95 angstroms
+X-H-X bond angle at equilibrium geometry:  105 degrees
+--------------Section-2-----------------
+The fitting of quardratic equation gives k_r = 1308 and k_theta = 7.719691377579731e-19 
+---------------Section-3---------------
+symmetric streching frequency:3332.054586942517 cm-1
+bending frequency: 1703.9869666602326 cm-1
+---------------END-------------------
+```
+
 For H2S, the results are:
 ```bash
 H2S has the following information:
-----------------Section-1-----------------
+-------------Section-1--------------
 Energy at equilibrium geometry: -398.675628032 Hartrees
 H-X bond length at equilibrium geometry:  1.35 angstroms
 X-H-X bond angle at equilibrium geometry:  94 degrees
-------------Section-2-----------------
+--------------Section-2-----------------
 The fitting of quardratic equation gives k_r = 839 and k_theta = 8.812612070232378e-19 
 ---------------Section-3---------------
 symmetric streching frequency:2668.8362781341502 cm-1
@@ -59,6 +74,6 @@ bending frequency: 1281.1750214775745 cm-1
 ---------------END-------------------
 ```
 
-
+In both cases, the calculated frequencies are close to empirical values found on: http://vpl.astro.washington.edu/spectra/h2s.htm and https://www.chem.purdue.edu/gchelp/vibs/h2o.html. Hence, our model is valid.
 
 If you have any question, please drop me an email (yc439@cam.ac.uk) Thank you!
