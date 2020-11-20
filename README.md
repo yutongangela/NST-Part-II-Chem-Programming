@@ -19,5 +19,15 @@ If you typed `2` for Platonic solids, you will then see a prompt asking you to c
 The programme returns the energies in a list, followed by degeneracies. 
 
 
+## Exercise-2
+In the second exercise, I wrote a script to calculate symmetric stretching and bending frequencies of H2O and H2S. 
+Before running the script, you need to:
+1. Download the `H2Ooutfiles.tar.bz2` and `H2Soutfiles.tar.bz2` files to your machine
+2. Decompress by '''bash
+bunzip2 filename
+'''
 
+### User Input
+1. Enter whether you want to get information about H2O or H2S. All other inputs are invalid.
+2. E
 If you have any question, please drop me an email (yc439@cam.ac.uk) Thank you!
