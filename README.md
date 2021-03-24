@@ -76,4 +76,4 @@ bending frequency: 1281.1750214775745 cm-1
 
 In both cases, the calculated frequencies are close to empirical values found on: http://vpl.astro.washington.edu/spectra/h2s.htm and https://www.chem.purdue.edu/gchelp/vibs/h2o.html. Hence, our model is valid.
 
-If you have any question, please drop me an email (yc439@cam.ac.uk) Thank you!
+If you have any question, feel free drop me an email (yc439@cam.ac.uk) Cheers!
